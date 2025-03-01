@@ -13,6 +13,8 @@ api = Blueprint('api', __name__)
 # Allow CORS requests to this API
 CORS(api)
 
+#EndPoints
+
 @api.route('/phones', methods=['POST'])
 def post_phones():
 
