@@ -4,6 +4,8 @@ from sqlalchemy import create_engine, String, ForeignKey, Column, Integer
 
 db = SQLAlchemy()
 
+# Modelos
+
 class User(db.Model):
 
     __tablename__ = 'user'
